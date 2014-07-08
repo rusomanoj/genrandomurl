@@ -1,0 +1,135 @@
+/* 
+    Document   : style
+    Created on : Jul 8, 2014, 2:36:30 PM
+    Author     : manojtamilselvan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    margin:0;
+    padding: 0;
+   
+}
+
+body{
+     background-color: white;
+   
+    }
+
+ 
+ .container{
+        background:whitesmoke;
+	border: black solid 1px;
+	color: black;
+        width: 900px;
+        height: 1200px;
+        margin:0 auto;
+        }
+	
+	
+.search{
+    padding-bottom: 2px;
+}
+
+#SearchName{
+               outline: none;
+               height: 40px;
+               width: 30%;
+               margin: 0px;
+               padding: 0px;
+               font-size: 20px;
+               background-color: white;
+}
+
+#menu {
+        
+        height: 20px;
+        position: relative;
+	padding: 7px; /*Set padding to 0px and(for cross-browser compatibility)*/ 
+	margin: 0px;
+	border-bottom: black solid 1px;
+}
+#menu ul{
+      
+	margin-right:auto;
+	margin-left:auto;
+	width: 70%;
+	position:absolute;
+	padding: 0px; /*Set padding to 0px and(for cross-browser compatibility)*/ 
+	margin: 0px; /*Set margin to 0px (for cross-browser compatibility)*/
+}
+#menu ul li{
+	
+	display:inline;
+	padding: 0px 20px;
+	border-right: 1px solid;	
+}
+
+a:link{
+    color:  #e65e15;
+    text-decoration:none;
+    
+}
+
+a:visited{
+    color: #e65e15;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color: black;
+}
+
+#shortenurl{
+       height: 1020px;
+}
+
+#randomurl{
+       
+       height: 1120px;
+      
+}
+
+#newurl{
+    padding: 40%;
+}
+
+input#text{
+    
+    width: 40%;
+    height: 30px;
+    border:solid 1px black;
+    padding:5px;
+    
+    
+}
+
+input#submit{
+    
+    background-color: #e65e15;
+    color: white;
+    border: none;
+    font-size: 12px;
+    width: 15%;
+    vertical-align: top;
+    vertical-align: bottom;
+    height: 42px;
+    
+}
+#shortenurl{
+   
+    padding-top: 100px;
+    padding-left: 200px;
+   
+}
+
+footer{
+    border-top: black solid 1px;
+    padding: 12px;
+}
+
